@@ -1,5 +1,5 @@
 # 基础镜像，选择合适的Java版本镜像，这里以OpenJDK 11为例
-FROM openjdk:11-jdk
+FROM openjdk:1.8-jdk
 
 # 设置工作目录，一般可以创建一个名为app的目录
 WORKDIR /app
